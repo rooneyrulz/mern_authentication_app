@@ -1,0 +1,2 @@
+# mern_authentication_app
+It's a full-stack MERN App where I deeply focused on authentication built in react js, bootstrap, node js, express js, mongodb as a database and it's based on MVC pettern also 100% ES6 based app on both side front-end as well as back-end. made with a nice looking UI design as well,  I used jsonwebtoken to authenticate user control system of course... and a bunch of different features included.
