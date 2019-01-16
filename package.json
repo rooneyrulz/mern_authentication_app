@@ -1,0 +1,36 @@
+{
+  "name": "mern-authentication",
+  "version": "1.0.0",
+  "description": "Sample MERN Authentication Application",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "start": "node ./bin/server.js",
+    "server": "babel-watch ./bin/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "keywords": [
+    "MERN-AUTHENTICATION"
+  ],
+  "author": "MR.ROONEY",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.8"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.3",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
